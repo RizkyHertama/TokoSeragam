@@ -207,6 +207,17 @@ section {
   left: auto;
 }
 
+.swiper-slide.slide.pria {
+  /* background:url(../image/banner1.jpg) no-repeat; */
+  background-color:  #FFE4D3ff;
+
+}
+
+.swiper-slide.slide.wanita {
+  /* background:url(../image/banner2.jpg) no-repeat; */
+  background-color:  #ECF4FFff;
+}
+
 .swiper-button-next,
 .swiper-button-prev {
   height: 5rem;
@@ -544,8 +555,8 @@ section {
 }
 
 .featured .featured-slider .slide:hover .icons {
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  /* -webkit-transform: scale(1);
+          transform: scale(1); */
 }
 
 .featured .featured-slider .slide .image {
@@ -588,19 +599,19 @@ section {
 }
 
 .featured .featured-slider .slide .content .price .amount {
-  font-size: 2.2rem;
+  font-size: 1.3rem;
   font-weight: bolder;
   color: #130f40;
 }
 
 .featured .featured-slider .slide .content .price .cut {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-decoration: line-through;
   color: #666;
 }
 
 .featured .featured-slider .slide .content .price .offer {
-  font-size: 2rem;
+  font-size: 1.3rem;
   color: #eb4d4b;
 }
 
@@ -941,6 +952,7 @@ section {
   section {
     padding: 2rem;
   }
+
 }
 
 @media (max-width: 768px) {
@@ -1013,5 +1025,8 @@ section {
   .contact .row form .inputBox input {
     width: 100%;
   }
+
+
+
 }
 /*# sourceMappingURL=style.css.map */
