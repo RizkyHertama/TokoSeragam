@@ -207,13 +207,13 @@ section {
   left: auto;
 }
 
-.swiper-slide.slide.pria {
+.home .swiper-slide.slide.pria {
   /* background:url(../image/banner1.jpg) no-repeat; */
   background-color:  #FFE4D3ff;
 
 }
 
-.swiper-slide.slide.wanita {
+.home .swiper-slide.slide.wanita {
   /* background:url(../image/banner2.jpg) no-repeat; */
   background-color:  #ECF4FFff;
 }
